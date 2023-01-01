@@ -1,0 +1,76 @@
+.account{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    section{
+        padding: 10px;
+        header{
+            .head{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 20px 0;
+                gap: 20px;
+                .image{
+                    border-radius: 4rem;
+                    background-color: goldenrod;
+                }
+                .txt{
+                    flex: 1;
+                    h1{
+                        font-weight: 600;
+                        font-size: 14px;
+                    }
+                    p{
+                        font-size: 12px;
+                        display: flex;
+                        align-items: center;
+                        font-weight: 750;
+                        gap: 10px;
+                        span:nth-child(1){
+                            background: green;
+                            padding: 10px;
+                            border-radius: 5px;
+                            color: var(--wc);
+                        }
+                        
+                    }
+                }
+            }
+        }
+        main{
+            padding: 20px 0;
+            nav{
+                ul{
+                    padding: 0;
+                    li{
+                        margin: 20px 0;
+                        a{
+                            display: block;
+                            padding: 15px;
+                            font-weight: 550;
+                            font-size: 14px;
+                            color: var(--tc);
+                            span{
+                                padding: 0 15px;
+                                svg{
+                                    padding: 0;
+                                    margin:0;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        footer{
+            padding: 20px 0;
+            button{
+                background: #FCBB45;
+                border: none;
+                padding: 10px 20px ;
+                border-radius: 5px;
+                font-weight: 550;
+                font-size: 15px;
+            }
+        }
+    }
+}

@@ -1,0 +1,131 @@
+.mainPage {
+  max-width: 800px;
+  margin: auto;
+  header{
+    form{
+
+      display: flex;
+      justify-content: center;
+      padding: 10px;
+      div{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: var(--wc);
+        padding: 3px;
+        box-shadow: rgba(0, 0, 0, 0.31) 0 2px 4px 2px;
+        border-radius: 4px;
+        width: 100%;
+        input{
+          flex: 1;
+          border: none;
+          padding: 18px 10px;
+          outline: none;
+
+        }
+        button{
+          background: none;
+          border: none;
+        }
+
+      }
+    }
+  }
+}
+.container {
+  padding: 1rem 10px 20vh 10px;
+  .indexMain {
+    padding: 10px 0;
+    .welcome{
+      padding: 20px 0  50px  0;
+      display: none;
+      .title {
+        margin: 0;
+        text-transform: uppercase;
+        font-size: 1.5rem;
+        font-weight: 550;
+        letter-spacing: 1.1px;
+        color: rgba(0, 0, 0, 0.746);
+        a{
+          color: #0070f3;
+          text-decoration: none;
+        }
+        
+      }
+    }
+    .bookSlide{
+      padding: 5px 0;
+      display: grid;
+      place-items: center;
+      .grid {  
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        max-width: 800px;
+        gap: 20px;
+
+
+      }
+    }
+  }
+}
+  // min-height: 100vh;
+  // padding: 2.5rem 0 10vh 0;
+// flex: 1;
+// display: flex;
+// flex-direction: column;
+// justify-content: center;
+// align-items: center;
+
+
+.footer {
+  display: flex;
+  flex: 1;
+  padding: 2rem 0;
+  border-top: 1px solid #eaeaea;
+  justify-content: center;
+  align-items: center;
+  a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    color: var(--tc);
+    .logo {
+      height: 1em;
+      margin-left: 0.5rem;
+      display: flex;
+      align-items: center;
+      color: var(--bl);
+      gap: 5px;
+      font-weight: 750;
+    }
+
+  }
+}
+
+
+.title a:hover,
+.title a:focus,
+.title a:active {
+  text-decoration: underline;
+}
+
+
+.title {
+  text-align: center;
+}
+
+
+
+
+
+
+
+// @media (max-width: 600px) {
+//   .grid {
+//     width: 100%;
+//     flex-direction: column;
+//   }
+// }

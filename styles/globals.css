@@ -7,10 +7,18 @@ body {
 }
 
 a {
-  color: inherit;
   text-decoration: none;
 }
 
 * {
   box-sizing: border-box;
+}
+ul{
+  list-style: none;
+}
+:root{
+  --bl: #0070f3;
+  --tc: black;
+  --wc: white;
+  --pm: #FCBB45;
 }

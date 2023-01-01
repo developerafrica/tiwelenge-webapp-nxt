@@ -1,0 +1,35 @@
+@mixin fnt($c,$s,$w){
+    color: $c;
+    font-size: $s;
+    font-weight: $w;
+}
+.card{
+    padding: 10px;
+    .cd{
+        background: var(--pm);
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 10px;
+        section:nth-child(1){
+            flex: 1;
+            h5{
+                @include fnt(var(--tc), 10px, 650)  ;
+                letter-spacing: 1.5px;     
+                line-height: 0;         
+                
+            }
+            h1{
+                @include fnt(var(--tc), 15px, 900) ;
+                text-transform: uppercase; 
+                line-height: 0;         
+                letter-spacing: 1.1px;     
+            }
+            p{
+                line-height: 0;         
+                @include fnt(var(--wc), 10px, 750)                
+            }
+        }
+    }
+}
